@@ -1,1 +1,1 @@
-# nodeshop
+Primjer node.js demo aplikacije za usporedbu sa vanila javascript aplikacijom , React aplikacijom i Php aplikacijom live demo na http://phpshop.vlatko.live/ https://github.com/Vucenik/phpshop Live React demo na http://shop.vlatko.live/ Kod na https://github.com/Vucenik/shop2 Vanila javascript aplikacija na http://shop.vlatko.info/ Kod na https://github.com/Vucenik/shop
