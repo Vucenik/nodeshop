@@ -48,7 +48,7 @@ const home_route = (req, res) => {
     }
 
     // update kolicina
-    const proizvodi = data.categories[id_katalog].products.map(x => {
+    const proizvodi = JSON.parse(JSON.stringify(data.categories[id_katalog].products)).map(x => {
         const id_product = x.id_product;
 
         const kosarica = session.get('kosarica') ?? [];
