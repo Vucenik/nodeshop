@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  vshop:
+    image: vshop
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 5020:5020
