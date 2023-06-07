@@ -67,7 +67,7 @@ const server = http.createServer(server_obrada(ruter, provjeri_mime));
 
 
 server.listen(port, () => {
-    console.log(`Server je na http://: ${port}`);
+    console.log(`Server je na http://localhost: ${port}`);
 })
 
 
